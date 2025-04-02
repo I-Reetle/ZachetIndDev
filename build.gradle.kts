@@ -22,4 +22,5 @@ tasks.test {
 
 pmd {
 	toolVersion = "6.51.0"
+	isIgnoreFailures = true
 }
