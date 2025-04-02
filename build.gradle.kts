@@ -1,5 +1,6 @@
 plugins {
 	java
+	pmd
 }
 
 repositories {
@@ -17,4 +18,8 @@ tasks.test {
 	testLogging {
 		events("passed", "skipped", "failed")
 	}
+}
+
+pmd {
+	toolVersion = "6.51.0"
 }
